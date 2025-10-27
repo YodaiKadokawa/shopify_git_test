@@ -12,6 +12,24 @@
     "hero-slideshow": {
       "type": "slideshow",
       "blocks": {
+        "slide_8F3D3g": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/test_1.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        },
         "slide-0": {
           "type": "slide",
           "settings": {
@@ -32,6 +50,7 @@
         }
       },
       "block_order": [
+        "slide_8F3D3g",
         "slide-0"
       ],
       "settings": {
@@ -41,9 +60,25 @@
         "auto_rotate": false,
         "change_slides_speed": 5,
         "image_behavior": "none",
-        "show_text_below": true,
+        "show_text_below": false,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "test_section_xYtUKB": {
+      "type": "test-section",
+      "blocks": {
+        "text_WEYtYa": {
+          "type": "text",
+          "settings": {
+            "text": "これはテストです。"
+          }
+        }
+      },
+      "block_order": [
+        "text_WEYtYa"
+      ],
+      "name": "Test Section",
+      "settings": {}
     },
     "all-products": {
       "type": "featured-collection",
@@ -138,6 +173,7 @@
   },
   "order": [
     "hero-slideshow",
+    "test_section_xYtUKB",
     "all-products",
     "collection-list",
     "image-banner"
