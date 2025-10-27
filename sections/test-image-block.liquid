@@ -1,0 +1,29 @@
+{% for block in section.blocks %}
+  <img src="{{ block.settings.image | image_url: width: 1000 }}" alt="{{ block.settings.image.alt }}" width="1000" height="1000">
+{% endfor %}
+
+
+{% schema %}
+{
+  "name": "Test Image Block",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Test Image Block"
+    }
+  ]
+}
+{% endschema %}
