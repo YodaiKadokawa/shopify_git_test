@@ -1,0 +1,31 @@
+{% comment %} <p>This is the test section</p> {% endcomment %}
+
+{% for block in section.blocks %}
+  <p>{{ block.settings.text }}</p>
+{% endfor %}
+
+
+{% schema %}
+{
+  "name": "Test Section",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "Text",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Test Section"
+    }
+  ]
+}
+{% endschema %}
