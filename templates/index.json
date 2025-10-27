@@ -83,10 +83,16 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "test_image_block_zekpjG": {
+    "test_image_block_a9KzUa": {
       "type": "test-image-block",
       "blocks": {
-        "image_bM8BbP": {
+        "image_kabnix": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/test_1.jpg"
+          }
+        },
+        "image_4QQxq8": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/test_3.jpg"
@@ -94,7 +100,8 @@
         }
       },
       "block_order": [
-        "image_bM8BbP"
+        "image_kabnix",
+        "image_4QQxq8"
       ],
       "name": "Test Image Block",
       "settings": {}
@@ -215,7 +222,7 @@
   },
   "order": [
     "hero-slideshow",
-    "test_image_block_zekpjG",
+    "test_image_block_a9KzUa",
     "test_section_xYtUKB",
     "all-products",
     "collection-list",
