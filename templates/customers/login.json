@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -7,9 +16,28 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "17642368574b9b61c4": {
+      "type": "apps",
+      "blocks": {
+        "social_login_social_login_kKEE3M": {
+          "type": "shopify://apps/social-login/blocks/social_login/8de41085-9237-4829-86d0-25e862482fec",
+          "settings": {
+            "appblock_width": 100,
+            "code_integration": false
+          }
+        }
+      },
+      "block_order": [
+        "social_login_social_login_kKEE3M"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "17642368574b9b61c4"
   ]
 }
